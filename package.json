@@ -1,0 +1,19 @@
+{
+  "name": "project-news-explorer-backend",
+  "version": "1.0.0",
+  "description": "news explorer backend project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Nicolle Algarin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
